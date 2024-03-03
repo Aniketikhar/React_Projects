@@ -1,21 +1,31 @@
-import {React , useState } from 'react'
+import { React, useState } from "react";
 
-const IncrementBy = ({get}) => {
+const IncrementBy = ({ get }) => {
+  // for storing the input value we have to take state..
   const [steps, setSteps] = useState(1);
 
-  function handleInput(e){
+  // this function updating input
+  function handleInput(e) {
     setSteps(e.target.value);
   }
+
+  // passing input value from child component to parent component
   get(steps);
- 
+
   return (
-    <div style={{width:'220px' }} >
+    <div style={{ width: "220px" }}>
       <fieldset>
         <legend>Increase Limit</legend>
-        <input type="number" id="steps" value={steps} style={{border:'none'}} onChange={handleInput}  />
+        <input
+          type="number"
+          id="steps"
+          value={steps}
+          style={{ border: "none" }}
+          onChange={handleInput}
+        />
       </fieldset>
     </div>
-  )
-}
+  );
+};
 
-export default IncrementBy
+export default IncrementBy;

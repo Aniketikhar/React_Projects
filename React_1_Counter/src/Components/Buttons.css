@@ -1,0 +1,16 @@
+#btn-incre {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+}
+#btn-decre {
+  background-color: rgb(255, 16, 48);
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+}

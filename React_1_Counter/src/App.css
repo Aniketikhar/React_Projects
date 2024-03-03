@@ -1,14 +1,11 @@
-
-
-.main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.row{
-    display: flex;
-    margin: 20px;
-    
+.row {
+  display: flex;
+  margin: 20px;
 }

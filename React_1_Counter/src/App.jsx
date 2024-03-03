@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, React } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Display from "./Components/Display";
@@ -8,34 +8,56 @@ import IncrementBy from "./Components/IncrementBy";
 import DecreLimit from "./Components/DecreLimit";
 
 function App() {
+
+  //######### initializing states  ####################
+
+  // store counter value
   const [count, setCount] = useState(0);
+
+  // set upper limit
   const [upper_limit, setUpper_limit] = useState("");
+
+  // set lowest limit
   const [lower_limit, setLower_limit] = useState("");
+
+  // set steps for increasing and decreasing
   const [step, setStep] = useState("");
 
+
+  // ##################### Functions ####################
+
+  // taking input from set upper limit
   const getIncrement = (increment) => {
     setUpper_limit(increment);
   };
+
+  // taking input from lowest limit
   const getDecrement = (decrement) => {
     setLower_limit(decrement);
   };
+
+  // taking input from steps for increment
   const getStep = (steps) => {
     setStep(steps);
   };
 
+
+  // ################# handling Buttons ######################
+  
+  // this function is handling increase button
   function handleIncrease() {
-    if (count >= upper_limit) {
+    if (count + parseInt(step) > upper_limit) {
     } else {
-      setCount((counte) => counte + parseInt(step) );
-      // console.log(typeof(step));
+      setCount((counte) => counte + parseInt(step));
     }
   }
+
+  // this function is handling decrease button
   function handleDecrease() {
-    if (count <= lower_limit) {
-      
+    if (count - parseInt(step) < lower_limit) {
     } else {
-      setCount(count - parseInt(step));
-      // console.log(upper_limit);
+      setCount((counte) => counte - parseInt(step));
+      console.log(lower_limit);
     }
   }
 
@@ -44,6 +66,7 @@ function App() {
       <Navbar />
       <div className="main">
         <Display count={count} />
+
         <Buttons
           handleIncrease={handleIncrease}
           handleDecrease={handleDecrease}

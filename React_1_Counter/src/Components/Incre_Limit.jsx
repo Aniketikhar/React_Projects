@@ -1,25 +1,31 @@
-import {React , useRef, useState} from 'react'
+import { React, useRef, useState } from "react";
 
-const Incre_Limit = ({get}) => {
-  
-  const [increment, setIncrement] = useState(10);
+const Incre_Limit = ({ get }) => {
+  // for storing the input value we have to take state..
+  const [increment, setIncrement] = useState(100);
 
-  function handleInput(e){
+  // this function updating input
+  function handleInput(e) {
     setIncrement(e.target.value);
   }
-  get(increment);
- 
 
+  // passing input value from child component to parent component
+  get(increment);
 
   return (
-    <div style={{width:'220px' }} >
+    <div style={{ width: "220px" }}>
       <fieldset>
         <legend>Increase Limit</legend>
-        <input type="number" id="incre-limit" value={increment} style={{border:'none'}} onChange={handleInput}  />
-        
+        <input
+          type="number"
+          id="incre-limit"
+          value={increment}
+          style={{ border: "none" }}
+          onChange={handleInput}
+        />
       </fieldset>
     </div>
-  )
-}
+  );
+};
 
-export default Incre_Limit
+export default Incre_Limit;

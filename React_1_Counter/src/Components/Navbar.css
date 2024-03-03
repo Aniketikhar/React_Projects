@@ -1,21 +1,17 @@
-
-.navbar{
-    background-color: orange;
-    color: white;
-    margin: 0px;
-    padding: 10px 20px;
-    /* padding-bottom: 0; */
+.navbar {
+  background-color: orange;
+  color: white;
+  margin: 0px;
+  padding: 10px 20px;
 }
-.menu{
-    margin: 0px;
-    display: inline-block;
-    padding-top: 10px;
-  
+.menu {
+  margin: 0px;
+  display: inline-block;
+  padding-top: 10px;
 }
 
-.navbar h2{
-    display: inline-block;
-    margin: 0px;
-    padding-bottom: 5px;
+.navbar h2 {
+  display: inline-block;
+  margin: 0px;
+  padding-bottom: 5px;
 }
-
