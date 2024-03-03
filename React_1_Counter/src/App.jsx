@@ -6,6 +6,7 @@ import Buttons from "./Components/Buttons";
 import Incre_Limit from "./Components/Incre_Limit";
 import IncrementBy from "./Components/IncrementBy";
 import DecreLimit from "./Components/DecreLimit";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -79,6 +80,7 @@ function App() {
           <DecreLimit get={getDecrement} />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

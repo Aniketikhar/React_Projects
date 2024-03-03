@@ -3,15 +3,13 @@
   color: white;
   margin: 0px;
   padding: 10px 20px;
-}
-.menu {
-  margin: 0px;
-  display: inline-block;
-  padding-top: 10px;
+  text-align: center;
 }
 
-.navbar h2 {
+
+.navbar h1 {
   display: inline-block;
   margin: 0px;
   padding-bottom: 5px;
+  
 }

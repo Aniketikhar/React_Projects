@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h2>React Counter App</h2>
+      <h1>React Counter App</h1>
     </div>
   );
 };
