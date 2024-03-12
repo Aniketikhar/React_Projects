@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react';
+import './Square.css';
 
 const Squares = ({value , onSquareClick}) => {
 
-    
-
   return (
-    <>
-      <button onClick={onSquareClick}>{value}</button>
-    </>
+    <div className='col p-0'>
+      <button className='w-100 h-100' onClick={onSquareClick}>{value}</button>
+    </div>
   )
 }
 
