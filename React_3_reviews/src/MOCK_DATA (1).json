@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "full_name": "Dre Helm",
+        "job_title": "Dental Hygienist",
+        "description": "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold everyday carry",
+        "image": "public/assets/img1.jpg"
+    },
+    {
+        "id": 2,
+        "full_name": "Broderic Ridgedell",
+        "job_title": "Developer IV",
+        "description": "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf m art shabby chic.",
+        "image": "public/assets/img2.jpg"
+    },
+    {
+        "id": 3,
+        "full_name": "Aloysia Claworth",
+        "job_title": "Research Associate",
+        "description": "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic bing swag.",
+        "image": "public/assets/img3.jpg"
+    },
+    {
+        "id": 4,
+        "full_name": "Winnie Avison",
+        "job_title": "Research Associate",
+        "description": "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jeartisan narwhal.",
+        "image": "public/assets/img4.jpg"
+    },
+    {
+        "id": 5,
+        "full_name": "Cari Lufkin",
+        "job_title": "Structural Analysis Engineer",
+        "description": "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salour dollar toast everyday carry",
+        "image": "public/assets/img5.jpg"
+    }
+   
+]
